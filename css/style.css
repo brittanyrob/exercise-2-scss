@@ -1,0 +1,7 @@
+/* Sass Document */
+/* This file imports your scss partials to be compiled into one stylesheet. That stylesheet can then be attached to your html */
+/* Sass Document */
+/* are places for sharing information that you want to reuse throughout your stylesheet. You can store things like colors, font-stacks or any css value you can think of. Variables are declared using '$' */
+body {
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif; }

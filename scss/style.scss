@@ -1,0 +1,8 @@
+/* Sass Document */
+/* This file imports your scss partials to be compiled into one stylesheet. That stylesheet can then be attached to your html */
+ @import 'base';
+
+body{
+	background-color: $background;
+	font-family: $arial;
+}
