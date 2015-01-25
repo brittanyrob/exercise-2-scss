@@ -1,6 +1,101 @@
 /* Sass Document */
 
-body{
-	background-color: $background;
-	font-family: $arial;
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	box-sizing: border-box;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
 }
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.menu {
+	$background-color
+	padding: 2rem;
+	margin: -1rem;
+	text-align: center;
+}
+
+.menu a {
+	text-align: center;
+}
+
+.icon-icon-5 {
+	$font-size
+	$width
+	$padding
+	$color
+}
+
+.icon-icon-5:hover {
+	$font-size
+	$width
+	$padding
+	$hovercolor
+}
+
+.icon-icon {
+	$font-size
+	$width
+	$padding
+	$color
+}
+
+.icon-icon:hover {
+	$font-size
+	$width
+	$padding
+	$hovercolor
+}
+
+.icon-icon-1 {
+	$font-size
+	$width
+	$padding
+	$color
+}
+
+.icon-icon-1:hover {
+	$font-size
+	$width
+	$padding
+	$hovercolor
+}
+
+.icon-icon-2 {
+	$font-size
+	$width
+	$padding
+	$color
+}
+
+.icon-icon-2:hover {
+	$font-size
+	$width
+	$padding
+	$hovercolor
+}
+
+.icon-icon-4{
+	$font-size
+	$width
+	$padding
+	$color
+}
+
+.icon-icon-4:hover {
+	$font-size
+	$width
+	$padding
+	$hovercolor
+}
+

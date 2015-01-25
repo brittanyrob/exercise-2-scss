@@ -1,7 +1,13 @@
 /* Sass Document */
-/* This file imports your scss partials to be compiled into one stylesheet. That stylesheet can then be attached to your html */
+/* This file imports your scss partials to be compiled into one stylesheet. That stylesheet can then be attached to your html 
+Imports variables, mixins, and other modules*/
 /* Sass Document */
 /* are places for sharing information that you want to reuse throughout your stylesheet. You can store things like colors, font-stacks or any css value you can think of. Variables are declared using '$' */
+/* This line imports your _base.css partial*/
+/* Where the meat of your css goes, broke up into modular parts ie typography, layout, buttons etc*/
+/* Sass Document */
 body {
   background-color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif; }
+
+/* This is for third party css*/

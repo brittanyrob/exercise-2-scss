@@ -7,9 +7,11 @@ Imports variables, mixins, and other modules*/
  // Components
  
  /* Where the meat of your css goes, broke up into modular parts ie typography, layout, buttons etc*/
- @import 'compontents/main';
+ @import 'components/main';
 
-
+ @import 'mixin';
+ /* This line imports your _mixin.css partial*/ 
+ 
 
 // Vendors
 /* This is for third party css*/
